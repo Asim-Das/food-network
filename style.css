@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e4e1e1;
+}
+h1{
+    font-size: 60px;   
+}
+h2{
+    font-size: 30px;
+}
+nav{
+    overflow: hidden;
+    background-color: rgb(177, 177, 175);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;   
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.highlight-text{
+    color: orange;
+}
+.flexible{
+    display: flex;    
+}
+.food-network{
+    margin-top: 20px;
+}
+.half-width{
+    width: 50%;
+    margin: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange,tomato);
+    padding: 15px 25px;
+    box-shadow: 10px 10px 30px tomato;
+    border-radius: 50px;
+    color: white;
+    
+}
+.about-myself{
+    margin-top: 50px;
+    background-image: url(images/bg/7.png);
+    height: 580px;  
+}
+.about-myslf-text{
+    padding-top: 100px;
+}
+.about-myself>div img{
+    height: 100%;
+    margin-top: 65px;   
+}
+#food-area{
+    text-align: center;
+}
+.food-item{
+    width: 30%;
+    background-color: #ddd9d9;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;   
+}
+.food-item img{
+    width: 100%;
+}
+#box-area{
+    box-shadow: 5px 10px 20px #c5c3c3;
+    border-radius: 20px;
+    margin:30px 100px;
+}
+.followers{
+    padding-left: 150px;   
+}
+footer{
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(75, 72, 72);
+    margin-top: 50px;
+}
+
+
+
+
