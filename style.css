@@ -57,8 +57,7 @@ nav a{
     padding: 15px 25px;
     box-shadow: 10px 10px 30px tomato;
     border-radius: 50px;
-    color: white;
-    
+    color: white;    
 }
 .about-myself{
     margin-top: 50px;
@@ -88,7 +87,9 @@ nav a{
 #box-area{
     box-shadow: 5px 10px 20px #c5c3c3;
     border-radius: 20px;
+    padding: 50px 50px;
     margin:30px 100px;
+    line-height: 0;
 }
 .followers{
     padding-left: 150px;   
